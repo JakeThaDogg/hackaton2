@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  list-style: none;
 }
 
 .App-logo {
@@ -25,27 +26,41 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
-
-.master-root {
-  margin: 20px auto;
-  position: relative;
-  min-height: 300px;
-  max-height: 100px;
-  width: 300px;
-  overflow: hidden;
-  border: 1px solid #e5e5e5;
-}
-
+} /*
 .card {
-  background-color: white;
+  background-color: black;
   background-size: cover;
-  position: absolute;
+  color: white;
   background: #F8F3F3;
-  height: 200px;
-  width: 180px;
-  margin: 0 auto;
-  transition: box-shadow .3s;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  cursor: pointer;
+  height: auto;
+  margin-top: 3em;
+  width: 50%;
+  left: 40%;
+}
+*/
+
+button{
+  border-radius: 1em;
+  border-color: #FFD700;
+  font-size: 2em;
+  background-color: black;
+  color: #FFD700;
+  margin-bottom: 2em;
+  transition-property: background-color, color, border-color;
+  transition-duration: 1s
+}
+
+button:hover{
+  background-color: #ff5671;
+  color: white;
+  border-color: #ff5671;
+}
+
+input{
+  margin-bottom: 2em;
+}
+
+.profile{
+    background-color: #6b3a5c;
+    color: white;
 }
